@@ -12,17 +12,19 @@
 
         #logo{width: 19.5%; height:200px;  float: left;margin-right: 0.5%;}
         #baslik{width: 49.5%;height: 200px;background-color: rgb(194, 143, 76,0.7);float: left; margin-right: 0.5%;}
-        #reklam{width: 30%;height: 200px;background-color: rgb(228, 228, 18,0.7);float: left;}
+        #reklam{width: 30%;height: 200px;float: left;}
         .icerik{width: 69.5%;height: auto;background-color:rgb(100, 238, 238,0.7); float:left; margin:0.5% 0.5% 0px 0px;text-align: center;}
         .haber{width: 30%;height: 1707px;background-color:rgb(18, 224, 100,0.7) ;float:left;margin-top: 0.5%;}
         #alt{width: 100%; height: 100px;background-color: rgb(200, 224, 208,0.7);float: left;margin-top: 0.5%;}
-        .menu{}
+       
 
-        #panel > #logo > img{width: auto; height: 100%;}
+        #panel > #logo > img{width: 100%; height: auto;}
         #panel > .haber > div> img{width: 100% ;height: auto;}
-        #panel > .reklam > div > video{width: auto;height: 100%;}
+        #panel > .haber > div{border-bottom: 3px solid black;}
+        #panel > #reklam > div > video{width: 100%;height: auto ;}
+        #panel > #baslik >.menu> a > li{float: left; list-style-type: none; margin-right: 20%;font-size: 150%; margin-bottom: 20%; border-bottom: 3px solid red; }
 
-        .metin{width: 29.5%;margin: 0.4%; padding: 0.4%; box-sizing: border-box; box-shadow: 20px 20px 20px -10px rgba(0,0,0,0.75); float :left;}
+        .metin{width: 29.5%; margin: 0.4%; padding: 2%; box-sizing: border-box; box-shadow: 20px 20px 20px -10px rgba(0,0,0,0.75); float :left;}
     </style>
 
 </head>
@@ -31,15 +33,15 @@
         <div id="logo"><img src="fotoğraflar/download.png"/></div>
         <div id="baslik">
             <div class="menu">
-                <li>AnaMenü</li>
-                <li>Hakkımızda</li>
-                <li>Ürünler</li>
-                <li>İletiş</li>
+                <a href="#"><li>AnaMenü</li></a>
+               <a href="#"><li>Hakkımızda</li></a>
+                <a href="#"><li>Ürünler</li></a>
+                <a href="#"><li>İletiş</li></a>
 
             </div>
         </div>
         <div id="reklam"><br/>
-            <div><video src="https://youtu.be/B9RgougnhiE" muted autoplay loop></video></div>
+            <div><video src="videolar/gus.mp4" muted autoplay loop ></video></div>
 
         </div>
         <div class="icerik">
@@ -58,7 +60,8 @@
 
         </div>
         <div class="haber">haberler<br/>
-            <div>SAVE HİM LİFE !!! <br/><img src="fotoğraflar/walter_1.jpg"></div>
+            
+            <div> <img src="fotoğraflar/walter_1.jpg";/>SAVE HİM LİFE !!!</div>
         </div>
         <div id="alt">alt</div>
         <div class="clear"></div>

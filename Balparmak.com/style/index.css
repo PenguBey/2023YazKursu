@@ -1,0 +1,39 @@
+body{margin: 0px; padding: 0px;}
+#sonra{
+    width: 100%; 
+    max-width: 1400px; 
+    height: auto; 
+    min-height: 400px; 
+    margin: 0px auto;
+    background-color: black ;
+}
+#slogan{
+    width: 100%; 
+    height: auto;
+    min-height: 200px; 
+    margin: 0px; 
+    background-color: #ddd;
+}
+#slogan > #sloganiç{
+    width: 100%; 
+    max-width: 1400px; 
+    height: auto; 
+    min-height: 200px; 
+    margin: 0px auto; 
+    background-color: pink;
+}
+
+#alt{
+    width: 100% ; 
+    height: auto;
+    min-height: 300px; 
+    margin: 0px; 
+    background-color: #d39a2f;
+}
+#lisans{
+    width: 100%; 
+    height: auto; 
+    min-height: 30px; 
+    margin-top: 10px; 
+    background-color: #967a3b;
+}

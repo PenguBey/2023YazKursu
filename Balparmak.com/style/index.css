@@ -14,13 +14,28 @@ body{margin: 0px; padding: 0px;}
     margin: 0px; 
     background-color: #ddd;
 }
-#slogan > #sloganiç{
+#slogan > #sloganic{
     width: 100%; 
     max-width: 1400px; 
     height: auto; 
-    min-height: 200px; 
+    min-height: 100px; 
     margin: 0px auto; 
     background-color: pink;
+}
+#slogan > #sloganic > .haberler{
+    width: 24%;
+    height: auto;
+    margin: 10px 0.5%;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+#slogan > #sloganic > .haberler > img{
+    width: auto;
+    height: auto;
+    min-height: 200px;
+    margin: 0px;
 }
 
 #alt{

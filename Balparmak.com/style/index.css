@@ -32,7 +32,7 @@ body{margin: 0px; padding: 0px;}
 }
 #slogan > #sloganic > .haberler > img{
     width: auto;
-    height: auto;
+    height: 100%;
     min-height: 99px;
     margin: 0px;
 }
@@ -52,6 +52,39 @@ body{margin: 0px; padding: 0px;}
     margin: 0px; 
     background-color: #d39a2f;
 }
+#alt > #altic{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0px auto;
+    
+}
+#alt > #altic > #altlogo{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    text-align: center;
+}
+#alt > #altic > #altlogo > img{
+    margin-top: -50px;
+}
+
+#alt > #altic > #sosyal{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 0px 0px;
+
+    text-align: center;
+}
+#alt > #altic > #sosyal >figure {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
 #lisans{
     width: 100%; 
     height: auto; 

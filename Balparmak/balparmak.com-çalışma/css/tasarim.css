@@ -123,6 +123,26 @@
     padding: 5px;
     box-sizing: border-box;
     float: left;
+    background-color: #262626;
+ }
+ #menualt > #menua {
+    list-style: none;
+    width: 100%;
+    height: auto;
+ }
+ #menualt > #menua > li{
+    width: auto;
+    display: inline-block;
+    margin: 0px 5px;
+ }
+ #menualt > #menua > li > a{
+    text-decoration: none;
+    transition: all 300ms;
+ }
+ #menualt > #menua > li > a:hover{
+    background-color: #cfa24e;
+    transition: all 300ms;
+
  }
 #karekod {
     width: 10%;
@@ -134,7 +154,7 @@
     float: left;
     background:#967a3b;
 }
-
+#karekod > img{width: 100%; height: auto;}
 
 #lisans {
     width: 100%;

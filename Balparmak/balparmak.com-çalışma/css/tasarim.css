@@ -1,0 +1,168 @@
+﻿body
+{
+    margin:0px;
+    padding:0px;
+}
+.divtemizleme {clear:left;
+}
+#sonra {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    min-height: 400px;
+    background: #808080;
+    margin: 0px auto;
+}
+/* slogan  alan kodları */
+#slogan{
+    width:100%;
+    height:auto;
+    min-height:200px;
+    margin:0px;
+    background:#ddd;
+}
+#slogan > #sloganic {
+    width:100%;
+    max-width:1400px;
+    height:auto;
+    min-height:200px;
+    margin:0px auto;
+    padding:10px;
+    box-sizing:border-box;
+  
+}
+    #slogan > #sloganic > .haber {
+        width:24%;
+        height:auto;
+        margin:10px 0.5%;
+        float:left;
+        text-align:center;
+    }
+    #slogan > #sloganic > .haber > img {
+        width: auto;
+        height: 99px;
+        
+        margin:0px;  
+    }
+    #slogan > #sloganic > .haber > figcaption {
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            padding:10px;
+            box-sizing:border-box;
+            font-size:17px;
+            font-family:Arial;
+            font-weight:500;
+        }
+
+    /* alt alan kodları */
+
+
+#alt {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    margin: 0px;
+    background: #d39a2f;
+}
+#alt > #altic {
+    width: 100%;
+    max-width:1400px;
+    height: auto;
+    min-height: 300px;
+    margin: 0px auto;
+  
+}
+    #alt > #altic > #altlogo {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        text-align:center;
+    }
+    #alt > #altic > #altlogo > img {
+        width: auto;
+        height: 99px;
+        margin: 0px;
+        margin-top:-49.5px;
+    }
+    #alt > #altic > #sosyalmedya {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        text-align: center;
+    }
+    #alt > #altic > #sosyalmedya > figure {
+        width: 41px;
+        height: 41px;
+        margin: 0px;
+        padding: 4px;
+        box-sizing:border-box;
+        margin:0px;
+        margin-top:50px;
+        display:inline-block;
+    }
+        #alt > #altic > #sosyalmedya > figure > img {
+            width: 100%;
+            height:auto;
+         
+        }
+
+/* alt Menü grubu */
+#menuhakkimizda {    width:20%;    height:auto;    min-height:300px;    margin:0px;    padding:5px;    box-sizing:border-box;    float:left;}
+#menuhakkimizda > h1{   width:100%;    height:auto;    margin:0px 0px 10px 0px;    padding:0px;    box-sizing:border-box;    font-size:20px;    font-weight:900;    font-family:Calibri;}
+#menuhakkimizda > #menuh {    width: 100%;    height: auto;    margin: 0px;    padding: 0px;    box-sizing: border-box;   list-style:none;}
+#menuhakkimizda > #menuh > li{    width: 100%;    height: auto;    margin: 5px 0px;    padding: 0px;    box-sizing: border-box;}
+#menuhakkimizda > #menuh > li > a:link, a:visited, a:active{    width: 100%;    height: auto;    margin:0px;    padding: 5px;    box-sizing: border-box;    display:block;
+    font-size:16px;    font-weight:300;    font-family:Arial;    color:#ffffff;   text-decoration:none;   transition:all ease-out 300ms;}
+#menuhakkimizda > #menuh > li > a:hover{    color:#000000;    background:#eaba5e;    transition:all ease-in 300ms;  }
+#menualt {
+    width: 70%;
+    height: auto;
+    min-height: 300px;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+ }
+#karekod {
+    width: 10%;
+    height: auto;
+    min-height: 300px;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    background:#967a3b;
+}
+
+
+#lisans {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    margin: 0px;
+    margin-top: 10px;
+    background: #967a3b;
+}
+
+/* Mobil Tasarım Kodları */
+/* Telefon İçin */
+@media screen and (min-width:0px) and (max-width:768px) {
+    #slogan > #sloganic > .haber { width: 99%;}
+    #slogan > #sloganic { padding-bottom:50px;box-sizing: border-box;}
+    
+
+}
+
+/* Tablet İçin */
+@media screen and (min-width:769px) and (max-width:992px) {
+     #slogan > #sloganic > .haber { width: 49%;}
+     #slogan > #sloganic { padding-bottom:10px;box-sizing: border-box;}
+
+}
+
+/* Bilgisayar İçin */
+@media screen and (min-width:993px) and (max-width:10000px) {
+ #slogan > #sloganic > .haber { width: 24%;}
+ #slogan > #sloganic { padding-bottom:10px;box-sizing: border-box;}
+}

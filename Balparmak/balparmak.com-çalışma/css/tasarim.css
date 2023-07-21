@@ -13,6 +13,18 @@
     background: #808080;
     margin: 0px auto;
 }
+/* genel bilgilerin olduğu alamn*/
+
+#hanaliz{width: 100%;height: auto;margin: 0px;padding: 0px;box-sizing: border-box;background-color: #f8f8f8;}
+#hanaliz > #hanalizic{width: 100%; max-width: 1400px; height: auto;margin: 0px auto;padding: 0px;box-sizing: border-box;}
+#hanaliz > #hanalizic > #bilgi{width: 100%;height: auto;margin: 0px;padding: 0px 28%;box-sizing: border-box;text-align: center;}
+#hanaliz > #hanalizic > #bilgi > h1 {font-size: 1.8rem;font-weight: 700;color: #304248;}
+#hanaliz > #hanalizic > #bilgi > p {font-size: 1rem;color: #d39a30;}
+#hanaliz > #hanalizic > .pencere { width: 33%;height: auto;margin: 0px;padding: 0px; box-sizing: border-box; float: left;text-align: center;background-color: #fff;}
+#hanaliz > #hanalizic > .pencere > figcaption{width: 85%;height: auto;margin: 0px auto; padding: auto;background-color: #fff;}
+#hanaliz > #hanalizic > .pencere > figcaption > h1{font-size: 1.8rem;font-weight: 700;color: #304248;}
+#hanaliz > #hanalizic > .pencere > figcaption > p{font-size: 1rem;color: #d39a30;}
+
 /* akademi haber alan kodları */
 #akademi{width: 100%; height: auto;margin:100px 0px;padding: 0px; box-sizing:border-box; background-color: #d39a30;background-image: url(../resimler/kovan.svg); background-position: bottom right; background-repeat: no-repeat;}
 #akademi > #akademiic{width: 100%;max-width: 1400px;height: auto;margin: 0px auto;padding: 0px; box-sizing:border-box;}

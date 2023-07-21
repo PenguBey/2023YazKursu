@@ -24,6 +24,7 @@
 #hanaliz > #hanalizic > .pencere > figcaption{width: 85%;height: auto;margin: 0px auto; padding: auto;background-color: #fff;}
 #hanaliz > #hanalizic > .pencere > figcaption > h1{font-size: 1.8rem;font-weight: 700;color: #304248;}
 #hanaliz > #hanalizic > .pencere > figcaption > p{font-size: 1rem;color: #d39a30;}
+#hanaliz > #hanalizic > .pencere > a {width: 50%; height: 50px; margin: 0px auto; line-height: 50px; color: #fff; text-align: center; text-decoration: none; background-color: #000000;display: block;}
 
 /* akademi haber alan kodları */
 #akademi{width: 100%; height: auto;margin:100px 0px;padding: 0px; box-sizing:border-box; background-color: #d39a30;background-image: url(../resimler/kovan.svg); background-position: bottom right; background-repeat: no-repeat;}

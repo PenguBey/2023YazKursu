@@ -13,6 +13,17 @@
     background: #808080;
     margin: 0px auto;
 }
+/* akademi haber alan kodları */
+#akademi{width: 100%; height: auto;margin:100px 0px;padding: 0px; box-sizing:border-box; background-color: #d39a30;background-image: url(../resimler/kovan.svg); background-position: bottom right; background-repeat: no-repeat;}
+#akademi > #akademiic{width: 100%;max-width: 1400px;height: auto;margin: 0px auto;padding: 0px; box-sizing:border-box;}
+#akademi > #akademiic > figure{width: 66%;height: auto;float: left;margin: 0px; ; padding: 0px; box-sizing:border-box;}
+#akademi > #akademiic > figure > img{width: 100%;height: auto;margin: 0px;padding: 0px; box-sizing:border-box;}
+#akademi > #akademiic > article{width: 33%;height: auto;float: left;margin:0px;padding: 0px 0px 0px 15%; box-sizing:border-box;}
+
+#akademi > #akademiic > article > h1,p {color: #ffffff;}
+#akademi > #akademiic > article > a { display: block; text-decoration:none;color: #fff;background-color: #262626;margin: 10px 0px; padding: 10px; box-sizing: border-box;text-align: center; border-radius: 10px; }
+
+#akademi>
 /* slogan  alan kodları */
 #slogan{
     width:100%;
@@ -108,54 +119,39 @@
         }
 
 /* alt Menü grubu */
-#menuhakkimizda {    width:20%;    height:auto;    min-height:300px;    margin:0px;    padding:5px;    box-sizing:border-box;    float:left;}
+#menuhakkimizda {    width:16%;    height:auto;    min-height:300px;    margin:0px;    padding:5px;    box-sizing:border-box;    float:left;}
 #menuhakkimizda > h1{   width:100%;    height:auto;    margin:0px 0px 10px 0px;    padding:0px;    box-sizing:border-box;    font-size:20px;    font-weight:900;    font-family:Calibri;}
 #menuhakkimizda > #menuh {    width: 100%;    height: auto;    margin: 0px;    padding: 0px;    box-sizing: border-box;   list-style:none;}
 #menuhakkimizda > #menuh > li{    width: 100%;    height: auto;    margin: 5px 0px;    padding: 0px;    box-sizing: border-box;}
 #menuhakkimizda > #menuh > li > a:link, a:visited, a:active{    width: 100%;    height: auto;    margin:0px;    padding: 5px;    box-sizing: border-box;    display:block;
     font-size:16px;    font-weight:300;    font-family:Arial;    color:#ffffff;   text-decoration:none;   transition:all ease-out 300ms;}
 #menuhakkimizda > #menuh > li > a:hover{    color:#000000;    background:#eaba5e;    transition:all ease-in 300ms;  }
-#menualt {
-    width: 70%;
-    height: auto;
-    min-height: 300px;
-    margin: 0px;
-    padding: 5px;
-    box-sizing: border-box;
-    float: left;
-    background-color: #262626;
- }
- #menualt > #menua {
-    list-style: none;
-    width: 100%;
-    height: auto;
- }
- #menualt > #menua > li{
-    width: auto;
-    display: inline-block;
-    margin: 0px 5px;
- }
- #menualt > #menua > li > a{
-    text-decoration: none;
-    transition: all 300ms;
- }
- #menualt > #menua > li > a:hover{
-    background-color: #cfa24e;
-    transition: all 300ms;
 
- }
-#karekod {
-    width: 10%;
-    height: auto;
-    min-height: 300px;
-    margin: 0px;
-    padding: 5px;
-    box-sizing: border-box;
-    float: left;
-    background:#967a3b;
+/* ------------------------------------- */
+#menualt {  width: 77%;    height: auto;    min-height: 300px;    margin: 0px;    padding: 5px;    box-sizing: border-box;    float: left; }
+#menualt > ul#menua {    width: 100%;    height: auto;    min-height: 300px;    margin: 0px;    padding: 5px;    box-sizing: border-box;   list-style:none;}
+#menualt > ul#menua > li {    width: auto;    height: 40px;    margin: 0px 2px;    padding: 0px;    box-sizing: border-box;  display:inline-block;}
+#menualt > ul#menua > li > a:link, a:visited{    width: auto;    height: 40px;    margin: 0px 2px;    padding: 5px 2px;    box-sizing: border-box;    display:block;    color:#000;
+     font-size:14px;     font-weight:500;    font-family:Calibri; text-decoration:none;      transition:all ease-out 300ms;}
+#menualt > ul#menua > li > a:active, a:hover {   background:#eaba5e;     transition:all ease-in 300ms;}
+#karekod {    width: 7%;    height: auto;    min-height: 300px;    margin: 0px;    padding: 5px;    box-sizing: border-box;    float: left; text-align:center;}
+#karekod > img {    width: 100%;    max-width:130px;    margin: 0px;    padding: 5px;    box-sizing: border-box;}
+/* Alt açılır menü */
+#menualt > ul#menua > li > ul.menua2{width:100%; min-width:400px; max-width:700px; height:auto; min-height:250px; list-style:none;position:absolute;background:#eaba5e; display:none; }
+#menualt > ul#menua > li > ul.menua2 > li {width:100%;
+                                           min-height:40px;
+                                           padding:4px;
+                                           margin:2px 0px;
+                                           display:inline-block;
+
 }
-#karekod > img{width: 100%; height: auto;}
+#menualt > ul#menua > li:hover ul.menua2 {
+    display: block;
+   margin-top:0px;
+   margin-left:2px;
+}
 
+/* ------------------------------------- */
 #lisans {
     width: 100%;
     height: auto;
@@ -164,20 +160,38 @@
     margin-top: 10px;
     background: #967a3b;
 }
+#lisans > p {
+    width: 100%;
+    max-width:1400px;
+    height: auto;
+    min-height: 50px;
+    margin: 0px auto;
+   color:#fff;
+   line-height:50px;
+  
+}
 
 /* Mobil Tasarım Kodları */
 /* Telefon İçin */
 @media screen and (min-width:0px) and (max-width:768px) {
     #slogan > #sloganic > .haber { width: 99%;}
     #slogan > #sloganic { padding-bottom:50px;box-sizing: border-box;}
-    
-
-}
+    #menuhakkimizda {    width:100%;}
+    #menualt { width: 100%;    }
+    #karekod {    width: 100%;}
+    #menualt > ul#menua > li > a:link, a:visited{   margin: 0px 2px; padding: 5px 2px;font-size:16px; font-weight:900;}
+    #menualt > ul#menua > li {    width: 100%; }
+ }
 
 /* Tablet İçin */
 @media screen and (min-width:769px) and (max-width:992px) {
      #slogan > #sloganic > .haber { width: 49%;}
      #slogan > #sloganic { padding-bottom:10px;box-sizing: border-box;}
+     #menuhakkimizda {    width:25%;}
+     #menualt { width: 75%;    }
+     #karekod {    width: 100%;}
+      #menualt > ul#menua > li > a:link, a:visited{ margin: 0px 2px; padding: 5px 2px;font-size:14px; font-weight:500;}
+#menualt > ul#menua > li {    width: auto; }
 
 }
 
@@ -185,4 +199,9 @@
 @media screen and (min-width:993px) and (max-width:10000px) {
  #slogan > #sloganic > .haber { width: 24%;}
  #slogan > #sloganic { padding-bottom:10px;box-sizing: border-box;}
+  #menuhakkimizda {    width:16%;}
+    #menualt { width: 77%;    }
+    #karekod {    width: 7%;}
+     #menualt > ul#menua > li > a:link, a:visited{   margin: 0px 2px; padding: 5px 3px;font-size:19px; font-weight:900;}
+#menualt > ul#menua > li {    width: auto; }
 }

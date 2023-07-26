@@ -13,38 +13,54 @@
     background: #808080;
     margin: 0px auto;
 }
-/* genel bilgilerin olduğu alamn*/
+/* Hikaye kodları */
+#hikaye{width: 100%;height: auto;  margin: 0px; padding: 5% 0px; box-sizing: border-box; background-color: #f8f8f8;}
+#hikaye > #hikayeic {width: 100%; max-width: 1400px; height: auto; margin: 0px auto; padding: 0px; box-sizing: border-box;}
+#hikaye > #hikayeic > #hikayeresim {width: 65%; height: auto; margin: 0px; padding: 0px; box-sizing: border-box; float: left;}
+#hikaye > #hikayeic > #hikayeresim > img {width:30%; height: auto; margin: 0px; padding: 0px; box-sizing: border-box; float: left;}
+#hikaye > #hikayeic > #hikayeresim > img#ikinci{margin: 0px 5%;}
+#hikaye > #hikayeic > #hikayemetin{width: 35%; height: auto; margin: 0px; padding: 3%; box-sizing: border-box; float: left; }
+#hikaye > #hikayeic > #hikayemetin > a {text-decoration: none; color: #fff; background-color: #000; display: block; margin: 0px; padding: 3%; box-sizing: border-box;}
 
-#hanaliz{width: 100%;height: auto;margin: 0px;padding: 0px;box-sizing: border-box;background-color: #f8f8f8;}
-#hanaliz > #hanalizic{width: 100%; max-width: 1400px; height: auto;margin: 0px auto;padding: 0px;box-sizing: border-box;}
-#hanaliz > #hanalizic > #bilgi{width: 100%;height: auto;margin: 0px;padding: 0px 28%;box-sizing: border-box;text-align: center;}
-#hanaliz > #hanalizic > #bilgi > h1 {font-size: 1.8rem;font-weight: 700;color: #304248;}
-#hanaliz > #hanalizic > #bilgi > p {font-size: 1rem;color: #d39a30;}
-#hanaliz > #hanalizic > .pencere { width: 33%;height: auto;margin: 0px;padding: 0px; box-sizing: border-box; float: left;text-align: center;background-color: #fff;}
-#hanaliz > #hanalizic > .pencere > figcaption{width: 85%;height: auto;margin: 0px auto; padding: auto;background-color: #fff;}
-#hanaliz > #hanalizic > .pencere > figcaption > h1{font-size: 1.8rem;font-weight: 700;color: #304248;}
-#hanaliz > #hanalizic > .pencere > figcaption > p{font-size: 1rem;color: #d39a30;}
-#hanaliz > #hanalizic > .pencere > a {width: 50%; height: 50px; margin: 0px auto; line-height: 50px; color: #fff; text-align: center; text-decoration: none; background-color: #000000;display: block;}
-
-/* akademi haber alan kodları */
-#akademi{width: 100%; height: auto;margin:100px 0px;padding: 0px; box-sizing:border-box; background-color: #d39a30;background-image: url(../resimler/kovan.svg); background-position: bottom right; background-repeat: no-repeat;}
-#akademi > #akademiic{width: 100%;max-width: 1400px;height: auto;margin: 0px auto;padding: 0px; box-sizing:border-box;}
-#akademi > #akademiic > figure{width: 66%;height: auto;float: left;margin: 0px; ; padding: 0px; box-sizing:border-box;}
-#akademi > #akademiic > figure > img{width: 100%;height: auto;margin: 0px;padding: 0px; box-sizing:border-box;}
-#akademi > #akademiic > article{width: 33%;height: auto;float: left;margin:0px;padding: 0px 0px 0px 15%; box-sizing:border-box;}
-
-#akademi > #akademiic > article > h1,p {color: #ffffff;}
-#akademi > #akademiic > article > a { display: block; text-decoration:none;color: #fff;background-color: #262626;margin: 10px 0px; padding: 10px; box-sizing: border-box;text-align: center; border-radius: 10px; }
-
-#akademi>
-/* slogan  alan kodları */
-#slogan{
-    width:100%;
-    height:auto;
-    min-height:200px;
-    margin:0px;
-    background:#ddd;
-}
+/* Bal izi kodları */
+#balizi {width:100%; height:auto; min-height:200px; margin:0px; margin-bottom:20px; background:#f8f8f8;padding:0px; box-sizing:border-box;}
+#balizi > #baliziic {width:100%; max-width:1400px; height:auto;  min-height:200px; margin:0px auto; padding:0px; box-sizing:border-box;}
+#balizi > #baliziic > h1 {width:100%; height:auto; margin:5px 0px; padding:0px; box-sizing:border-box; float:left;
+                          font-size:35px; font-weight:900; font-family:Calibri; color:#000; text-align:center;}
+#balizi > #baliziic > p {width:60%; height:auto; margin:2px 20%; padding:0px; box-sizing:border-box; float:left;
+                          font-size:19px; font-weight:300; font-family:Arial; color:#d39a30; text-align:center;}
+#balizi > #baliziic > figure {width:32.3%; height:auto; margin:10px 0.5%; padding:0px; box-sizing:border-box; float:left;
+                         text-align:center; background:#fff;}
+#balizi > #baliziic > figure > img {width:100%; max-width:387px; height:auto; margin:0px auto; padding:10px; box-sizing:border-box; }
+#balizi > #baliziic > figure > figcaption {width:90%; height:auto; margin:10px 5%; padding:0px; box-sizing:border-box; float:left;
+                          font-size:25px; font-weight:900; font-family:Calibri; color:#000; text-align:center;}
+#balizi > #baliziic > figure > p {width:80%; height:auto; margin:10px 10%; padding:0px; box-sizing:border-box; float:left;
+                          font-size:16px; font-weight:300; font-family:Arial; color:#d39a30; text-align:center;}
+#balizi > #baliziic > figure > a:link {width:50%; height:50px; margin:10px 25%; padding:0px; box-sizing:border-box; float:left;
+                          font-size:19px; font-weight:300; font-family:Arial; color:#fff!important; text-align:center; background:#d39a30;
+                          display:block; line-height:50px; text-decoration:none; }
+/* Akademi alan Kodları*/
+#akademi { width: 100%; height: auto;  min-height: 200px; margin: 0px 0px 40px 0px;  padding: 0px; box-sizing: border-box; background:#d39a30;
+           background-image:url(../resimler/akdemi-kose.svg); background-repeat:no-repeat; background-position:right bottom;}
+#akademi > #akademiic { width: 100%; max-width:1400px; height: auto;  min-height: 200px;  margin: 0px auto; padding: 0px;  box-sizing: border-box;}
+#akademi > #akademiic > figure, #akademilink {width:49.6%; height:auto;  margin:0px 0.2%; float:left; padding:5px 0px; box-sizing:border-box; }
+#akademi > #akademiic > figure > img { width:100%; height:auto; }
+#akademi > #akademiic > #akademilink > h1{width:100%; height:auto; padding:10px 10px 40px 30px; margin:0px;
+                                    box-sizing:border-box; font-size:35px; font-weight:900; font-family:Calibri; color:#fff;}
+#akademi > #akademiic > #akademilink > p{width:70%; height:auto; padding:10px 10px 10px 30px; margin:0px 30% 0px 0px;
+                                    box-sizing:border-box; font-size:18px; font-weight:400; font-family:Arial; color:#fff;}
+#akademi > #akademiic > #akademilink > a#akademilinka:link, a#akademilinka:active, a#akademilinka:visited{width:100%; max-width:300px; height:60px; 
+                                    padding:0px 0px 10px 0px; margin:0px 0px 0px 30px; background:#454343; font-size:18px; font-weight:400; line-height:60px; 
+                                    font-family:Arial; color:#fff; box-sizing:border-box; text-align:center; display:block; text-decoration:none;}
+    #akademi > #akademiic > #akademilink > a#akademilinka:hover { color: #d39a2f   }
+    /* slogan  alan kodları */
+    #slogan {
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        margin: 0px;
+        background: #ddd;
+    }
 #slogan > #sloganic {
     width:100%;
     max-width:1400px;
@@ -194,6 +210,10 @@
     #karekod {    width: 100%;}
     #menualt > ul#menua > li > a:link, a:visited{   margin: 0px 2px; padding: 5px 2px;font-size:16px; font-weight:900;}
     #menualt > ul#menua > li {    width: 100%; }
+    #akademi > #akademiic > figure, #akademilink {width:99.6%;}
+    #balizi > #baliziic > figure {width:99%;} 
+    #hikaye > #hikayeic > #hikayeresim{ width:100%;} 
+        #hikaye > #hikayeic > #hikayemetin{ width:100%;} 
  }
 
 /* Tablet İçin */
@@ -205,7 +225,10 @@
      #karekod {    width: 100%;}
       #menualt > ul#menua > li > a:link, a:visited{ margin: 0px 2px; padding: 5px 2px;font-size:14px; font-weight:500;}
 #menualt > ul#menua > li {    width: auto; }
-
+  #akademi > #akademiic > figure, #akademilink {width:49.6%;}
+   #balizi > #baliziic > figure {width:32.3%;}
+      #hikaye > #hikayeic > #hikayeresim{ width:100%;} 
+        #hikaye > #hikayeic > #hikayemetin{ width:100%;}
 }
 
 /* Bilgisayar İçin */
@@ -217,4 +240,8 @@
     #karekod {    width: 7%;}
      #menualt > ul#menua > li > a:link, a:visited{   margin: 0px 2px; padding: 5px 3px;font-size:19px; font-weight:900;}
 #menualt > ul#menua > li {    width: auto; }
+  #akademi > #akademiic > figure, #akademilink {width:49.6%;}
+   #balizi > #baliziic > figure {width:32.3%;}
+      #hikaye > #hikayeic > #hikayeresim{ width:65%;} 
+        #hikaye > #hikayeic > #hikayemetin{ width:35%;}
 }

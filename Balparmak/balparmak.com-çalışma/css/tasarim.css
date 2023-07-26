@@ -20,7 +20,7 @@
 #hikaye > #hikayeic > #hikayeresim > img {width:30%; height: auto; margin: 0px; padding: 0px; box-sizing: border-box; float: left;}
 #hikaye > #hikayeic > #hikayeresim > img#ikinci{margin: 0px 5%;}
 #hikaye > #hikayeic > #hikayemetin{width: 35%; height: auto; margin: 0px; padding: 3%; box-sizing: border-box; float: left; }
-#hikaye > #hikayeic > #hikayemetin > a {text-decoration: none; color: #fff; background-color: #000; display: block; margin: 0px; padding: 3%; box-sizing: border-box;}
+#hikaye > #hikayeic > #hikayemetin > a { text-align: center; text-decoration: none; color: #fff; background-color: #000; display: block; margin: 0px; padding: 3%; box-sizing: border-box;}
 
 /* Bal izi kodları */
 #balizi {width:100%; height:auto; min-height:200px; margin:0px; margin-bottom:20px; background:#f8f8f8;padding:0px; box-sizing:border-box;}
@@ -214,6 +214,7 @@
     #balizi > #baliziic > figure {width:99%;} 
     #hikaye > #hikayeic > #hikayeresim{ width:100%;} 
         #hikaye > #hikayeic > #hikayemetin{ width:100%;} 
+        #hikaye > #hikayeic > #hikayeresim {width: 100%;}
  }
 
 /* Tablet İçin */

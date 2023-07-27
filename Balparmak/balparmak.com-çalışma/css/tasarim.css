@@ -20,6 +20,7 @@
 #firsat > #firsatic > .firsatlar {width: 32.3%; height: auto; margin: 0px; float: left;  overflow: hidden;}
 #firsat > #firsatic > #iki {margin: 0px 1.5%;}
 #firsat > #firsatic > .firsatlar > figure {width: 100%; height: auto; margin: 0px;}
+#firsat > #firsatic > .firsatlar > figure > img {width: 100%; height: auto; transform: scale(1.0); transition: all ease-in 300ms;}
 #firsat > #firsatic > .firsatlar > figure:hover img {transform: scale(1.05); transition: all ease-in 300ms;}
 #firsat > #firsatic > .firsatlar > button{position: relative; width: 50%; height: 50px; margin: 0px 25%; background-color: #000; color: #fff; border-radius: 5px; bottom: -50px;
                                             transition: all ease-out 300ms;}
@@ -252,6 +253,9 @@
         #hikaye > #hikayeic > #hikayemetin{ width:100%; } 
         #apitera > #apiteraic > img {width:99%; margin:5px 0.5%;}
         #apitera > #apiteraic > img#ikinciapi {width:99%;  margin:5px 0.5%;}
+#firsat > #firsatic > .firsatlar {width: 100%; height: auto;}
+#firsat > #firsatic > #iki {margin: 0px;}
+#firsat > #firsatic > .firsatlar > button{height: 30px;}
  }
 
 /* Tablet İçin */

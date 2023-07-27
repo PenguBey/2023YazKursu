@@ -255,7 +255,7 @@
         #apitera > #apiteraic > img#ikinciapi {width:99%;  margin:5px 0.5%;}
 #firsat > #firsatic > .firsatlar {width: 100%; height: auto;}
 #firsat > #firsatic > #iki {margin: 0px;}
-#firsat > #firsatic > .firsatlar > button{height: 30px;}
+#firsat > #firsatic > .firsatlar:hover button{bottom: 70px;}
  }
 
 /* Tablet İçin */

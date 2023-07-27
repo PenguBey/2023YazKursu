@@ -13,15 +13,51 @@
     background: #808080;
     margin: 0px auto;
 }
-/* Hikaye kodları */
-#hikaye{width: 100%;height: auto;  margin: 0px; padding: 5% 0px; box-sizing: border-box; background-color: #f8f8f8;}
-#hikaye > #hikayeic {width: 100%; max-width: 1400px; height: auto; margin: 0px auto; padding: 0px; box-sizing: border-box;}
-#hikaye > #hikayeic > #hikayeresim {width: 65%; height: auto; margin: 0px; padding: 0px; box-sizing: border-box; float: left;}
-#hikaye > #hikayeic > #hikayeresim > img {width:30%; height: auto; margin: 0px; padding: 0px; box-sizing: border-box; float: left;}
-#hikaye > #hikayeic > #hikayeresim > img#ikinci{margin: 0px 5%;}
-#hikaye > #hikayeic > #hikayemetin{width: 35%; height: auto; margin: 0px; padding: 3%; box-sizing: border-box; float: left; }
-#hikaye > #hikayeic > #hikayemetin > a { text-align: center; text-decoration: none; color: #fff; background-color: #000; display: block; margin: 0px; padding: 3%; box-sizing: border-box;}
+/* firsat kodları*/
+#firsat{ width:100%; height:auto; margin:0px; background:#fcf9f5;}
+#firsat > #firsatic{ width:100%; max-width:1400px; height:auto; margin:0px auto; }
+#firsat > #firsatic > h1 { width:100%; height:auto; margin:0px; padding: 20px; box-sizing: border-box; text-align: center; font-family:Calibri;  font-weight:900; color:#242424;}
+#firsat > #firsatic > .firsatlar {width: 32.3%; height: auto; margin: 0px; float: left;  overflow: hidden;}
+#firsat > #firsatic > #iki {margin: 0px 1.5%;}
+#firsat > #firsatic > .firsatlar > figure {width: 100%; height: auto; margin: 0px;}
+#firsat > #firsatic > .firsatlar > figure:hover img {transform: scale(1.05); transition: all ease-in 300ms;}
+#firsat > #firsatic > .firsatlar > button{position: relative; width: 50%; height: 50px; margin: 0px 25%; background-color: #000; color: #fff; border-radius: 5px; bottom: -50px;
+                                            transition: all ease-out 300ms;}
+#firsat > #firsatic > .firsatlar:hover button{bottom: 60px; transition: all ease-in 300ms;}
+/* Apitera kodları*/
+#apitera {
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    max-height: 600px;
+    background: #f8f8f8;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+#apitera > #apiteraic {width:100%; max-width:1400px; height:auto; min-height:150px; max-height:600px; margin:0px auto;}
+#apitera > #apiteraic > figcaption {width:100%;  height:auto; margin:0px; padding:10px; box-sizing:border-box; float:left;
+                                    font-family:Calibri; font-size:35px; font-weight:900; color:#454343; text-align:center}
+#apitera > #apiteraic > img {width:32.3%;  height:auto; margin:0px; padding:0px; box-sizing:border-box; float:left;transform:scale(1.0);
+                             transition:all ease-out 250ms; overflow:hidden;}
+#apitera > #apiteraic > img:hover{ transform:scale(1.02);transition:all ease-in 250ms;}
+#apitera > #apiteraic > img#ikinciapi {width:32.3%;  margin:0px 1.5%; padding:0px; box-sizing:border-box; float:left;   }
 
+/* Hikaye kodları */
+#hikaye{ width:100%; height:auto; min-height:150px; max-height:593px; background:#f8f8f8;  margin:0px; padding:40px 0px; box-sizing:border-box;}
+#hikaye > #hikayeic{ width:100%; max-width:1400px; height:auto; min-height:150px;  margin:0px auto; padding:0px; box-sizing:border-box; }
+#hikaye > #hikayeic > #hikayeresim{ width:65%; height:auto; margin:0px; padding:0px; box-sizing:border-box; float:left }
+#hikaye > #hikayeic > #hikayeresim > img{ width:32.3%; max-width:407px; height:auto; margin:0px;  float:left;  }
+#hikaye > #hikayeic > #hikayeresim > img#ikinci{ width:32.3%; max-width:407px; height:auto; margin:0px 1.5%;  float:left;  }
+#hikaye > #hikayeic > #hikayemetin{ width:35%; height:auto; margin:0px; padding:0px; box-sizing:border-box; float:left }
+#hikaye > #hikayeic > #hikayemetin > h1{ width:100%; height:auto; margin:0px; padding:10px; box-sizing:border-box;
+                                         font-family:Calibri; font-size:25px; font-weight:900; color:#242424; float:left; }
+#hikaye > #hikayeic > #hikayemetin > p{ width:100%; height:auto; margin:0px; padding:40px 10px; box-sizing:border-box;
+                                         font-family:Arial; font-size:17px; font-weight:300; color:#d39a30; float:left; }
+#hikaye > #hikayeic > #hikayemetin > #hikayebtn:link, #hikayebtn:visited, #hikayebtn:active{ width:60%; height:50px; margin:10px 20%; padding:18px; box-sizing:border-box;
+                                         font-family:Calibri; font-size:20px; font-weight:900; color:#fff; background:#808080;
+                                         text-decoration:none; border-radius:5px; }
 /* Bal izi kodları */
 #balizi {width:100%; height:auto; min-height:200px; margin:0px; margin-bottom:20px; background:#f8f8f8;padding:0px; box-sizing:border-box;}
 #balizi > #baliziic {width:100%; max-width:1400px; height:auto;  min-height:200px; margin:0px auto; padding:0px; box-sizing:border-box;}
@@ -213,8 +249,9 @@
     #akademi > #akademiic > figure, #akademilink {width:99.6%;}
     #balizi > #baliziic > figure {width:99%;} 
     #hikaye > #hikayeic > #hikayeresim{ width:100%;} 
-        #hikaye > #hikayeic > #hikayemetin{ width:100%;} 
-        #hikaye > #hikayeic > #hikayeresim {width: 100%;}
+        #hikaye > #hikayeic > #hikayemetin{ width:100%; } 
+        #apitera > #apiteraic > img {width:99%; margin:5px 0.5%;}
+        #apitera > #apiteraic > img#ikinciapi {width:99%;  margin:5px 0.5%;}
  }
 
 /* Tablet İçin */
@@ -230,6 +267,8 @@
    #balizi > #baliziic > figure {width:32.3%;}
       #hikaye > #hikayeic > #hikayeresim{ width:100%;} 
         #hikaye > #hikayeic > #hikayemetin{ width:100%;}
+        #apitera > #apiteraic > img {width:32.3%; margin:0px;}
+        #apitera > #apiteraic > img#ikinciapi {width:32.3%;  margin:0px 1.5%;}
 }
 
 /* Bilgisayar İçin */
@@ -245,4 +284,6 @@
    #balizi > #baliziic > figure {width:32.3%;}
       #hikaye > #hikayeic > #hikayeresim{ width:65%;} 
         #hikaye > #hikayeic > #hikayemetin{ width:35%;}
+         #apitera > #apiteraic > img {width:32.3%; margin:0px;}
+         #apitera > #apiteraic > img#ikinciapi {width:32.3%;  margin:0px 1.5%;}
 }

@@ -1,0 +1,12 @@
+.temizle{clear: left;}
+
+/*footer bölmü*/
+.sinir{width: 100%; max-width: 960px; margin: 0px auto;}
+#alt{width: 100%; height: auto; margin: 0px; padding: 30px; box-sizing: border-box; background-color: #182b45;}
+#iletisim{width: 50%; height: auto; margin: 0px; float: left;}
+#iletisim > a {width: 100%; height: auto; margin: 0px;}
+#iletisim > a > img{width: 80%; height: auto; margin: 0px;}
+.ilList{width: 100%; height: auto;margin: 0px; padding: 0px; font-size: 15px; font-weight: 500; color: #fff; list-style: none; font-family: "Roboto", sans-serif; line-height: 25px;}
+.ilList > li{width: 100%;height: auto; margin: 0px;  font-size: 90%; color: #637792;}
+.ilList > li > a{text-decoration: none; color: #637792; }
+.baglantilar{width: 25%; height: auto; margin: 0px; float: left;}

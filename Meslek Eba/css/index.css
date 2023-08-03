@@ -6,7 +6,11 @@
 #iletisim{width: 50%; height: auto; margin: 0px; float: left;}
 #iletisim > a {width: 100%; height: auto; margin: 0px;}
 #iletisim > a > img{width: 80%; height: auto; margin: 0px;}
-.ilList{width: 100%; height: auto;margin: 0px; padding: 0px; font-size: 15px; font-weight: 500; color: #fff; list-style: none; font-family: "Roboto", sans-serif; line-height: 25px;}
+.ilList{width: 100%; height: auto;margin: 0px; padding: 0px; font-size: 15px; font-weight: 500; color: #fff; list-style: none; font-family: "Roboto", sans-serif; line-height: 20px;}
 .ilList > li{width: 100%;height: auto; margin: 0px;  font-size: 90%; color: #637792;}
 .ilList > li > a{text-decoration: none; color: #637792; }
 .baglantilar{width: 25%; height: auto; margin: 0px; float: left;}
+
+/*lisans bölümü*/
+#lisans{width: 100%; height: auto; margin: 0px; background-color: #182b45; border-top: 1px solid #637792;}
+#lisans > .sinir{padding: 10px 0px; box-sizing: border-box; font-size: 15px;color:#637792 ;}

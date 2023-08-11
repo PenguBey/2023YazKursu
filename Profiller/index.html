@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dis{width: 100%; max-width: 1400px; height: auto; margin: 0px auto;  }
+        #dis > .profil{width: 28%; height: auto; margin: 30px 2%; background-color: darkblue ;
+            float: left; border-radius: 40px; box-shadow: 20px 20px 20px 1px rgba(0,0,0,0.75);}
+            #dis > .profil::after{content: "";position: relative; width: 0%; height: 40px; margin-top: -10px;
+            background-color: yellow; display: block; border-radius: 40px; transition:all ease-in-out 1000ms; }
+        #dis > .profil:hover::after{width: 100%; height: 40px; transition:all ease-in-out 1000ms; }
+        #dis > .profil > .resim{width: 100%; height: 200px; background-image: url(space.jpg);
+             background-size: cover;border-top-left-radius: 40px; border-top-right-radius: 40px;}
+        #dis > .profil > .foto{ width: 100%; height: auto; margin: -70px 0px 0px 0px;  position: relative;}
+        #dis > .profil > .foto > img{width: 30%; height: auto; margin: 0px 33% ;border-radius: 20px;}
+        #dis > .profil > figcaption{text-align: center; color: white;}
+    </style>
+</head>
+<body>
+    <div id="dis">
+        <div class="profil">
+            <div class="resim"></div>
+            <figure class="foto"><img src="profile.png"></figure>
+            <figcaption><h1>Personel 1</h1> <p>personel ile ilgili bilgiler buraya yazılacaktır.</p></figcaption>
+            <div></div>
+        </div>
+        <div class="profil">
+            <div class="resim"></div>
+            <figure class="foto"><img src="profile.png"></figure>
+            <figcaption><h1>Personel 1</h1> <p>personel ile ilgili bilgiler buraya yazılacaktır.</p></figcaption>
+            <div></div>
+        </div>
+        <div class="profil">
+            <div class="resim"></div>
+            <figure class="foto"><img src="profile.png"></figure>
+            <figcaption><h1>Personel 1</h1> <p>personel ile ilgili bilgiler buraya yazılacaktır.</p></figcaption>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>

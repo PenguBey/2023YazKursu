@@ -4,6 +4,8 @@
 
 
 body{margin: 0px;}
+#ari{width: 100%; height: auto; position: absolute;top: 0px; left: 0px;z-index: -1; }
+
 #bas{width: 100%; height: auto; margin: 0px; padding:  20px 0px 20px 0px; border-bottom: 1px solid black; box-sizing: border-box;}
 #bas > .ic > img{width: 12%; height: 100px; float: left; }
 #bas > .ic >#ara{width: 40%; height: 45px; margin: 25px 5% 0px 10%; float: left; }
@@ -16,3 +18,5 @@ body{margin: 0px;}
 #bas > .ic > #sepet > #iletisim > a{color: black;}
 
 #nav {width: 100%; height: auto; }
+#nav > .ic > .gez{list-style: none;}
+#nav > .ic > .gez >.gez1{float: left;}

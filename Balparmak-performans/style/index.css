@@ -22,3 +22,8 @@ body{margin: 0px;}
      list-style: none;}
 #nav > .ic > .gez> a{text-decoration: none; color: #5e5e5e;}
 #nav > .ic > .gez> a>.gez1{float: left; margin: 0px 2% 0px 2%;}
+
+#gorsel {width: 100%; height: auto; margin: 70px 0px 0px 0px;}
+#gorsel > .ic > #resim{width: 1400px;  height: 600px; background-image: url(../image/res1.jpg); position: relative; z-index: 1; transition: all ease-in-out 500ms;}
+#gorsel > .ic >ul{width: 100%; height: auto; float: left; text-align: center; list-style: none; padding: 0px 40%;  box-sizing: border-box;}
+#gorsel > .ic >ul > li{width: 10% ;height: 30px; margin: 0px 10%;  float: left; border-radius: 50%; background-color: #c9c9c9;}

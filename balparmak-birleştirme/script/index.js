@@ -1,5 +1,3 @@
-
-
 document.getElementById("res1").addEventListener("click",function(){
     document.getElementById("resim").style.backgroundImage="url(image/res1.jpg)";
 });

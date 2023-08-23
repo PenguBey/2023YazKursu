@@ -27,3 +27,4 @@ body{margin: 0px;}
 #gorsel > .ic > #resim{width: 1400px;  height: 600px; background-image: url(../image/res1.jpg); position: relative; z-index: 1; transition: all ease-in-out 500ms;}
 #gorsel > .ic >ul{width: 100%; height: auto; float: left; text-align: center; list-style: none; padding: 0px 30%;  box-sizing: border-box;}
 #gorsel > .ic >ul > li{width: 30px ;height: 30px; margin: 0px 10%;  float: left; border-radius: 50%; background-color: #c9c9c9;}
+#gorsel > .ic >ul > li:first-child{background-color: yellow}

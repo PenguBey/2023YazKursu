@@ -26,25 +26,5 @@ document.getElementById("res3").addEventListener("click",function(){
     renk();
 });
 
-function deger() {
-    switch (sari) {
-        case "res1":
-            sari = "res2";
-            resim = "url(image/res2.jpg)";
-            break;
-    
-        case "res2":
-            sari = "res3";
-            resim ="url(image/res3.jpg)";
-            break
-        case "res3":
-            sari = "res1";
-            resim = "url(image/res1.jpg)";
-            break
-    }
-}
-while (true) {
-    setTimeout(deger(), 5000);
-    setTimeout(renk(), 5001);
-}
+
 

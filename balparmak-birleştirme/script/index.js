@@ -25,6 +25,3 @@ document.getElementById("res3").addEventListener("click",function(){
     resim ="url(image/res3.jpg)";
     renk();
 });
-
-
-
